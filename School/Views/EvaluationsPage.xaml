@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="School.Views.EvaluationsPage"
+             Title="EvaluationsPage">
+    <StackLayout Spacing="25">
+        <Label 
+            Text="Ajouter une évaluation"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="42"/>
+
+            <Label 
+            Text="Ajouter une cote :"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="22"/>
+
+        <HorizontalStackLayout Spacing="50">
+        <Picker x:Name="StudentPicker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start"
+                    SelectedItem="{Binding Selection}" />
+        
+        <Picker x:Name="ActivityPicker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"
+                    SelectedItem="{Binding Selection}" >
+            </Picker>
+
+        <Picker x:Name="CotePicker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"
+                    SelectedItem="{Binding Selection}" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>20</x:String>
+                        <x:String>19</x:String>
+                        <x:String>18</x:String>
+                        <x:String>17</x:String>
+                        <x:String>16</x:String>
+                        <x:String>15</x:String>
+                        <x:String>14</x:String>
+                        <x:String>13</x:String>
+                        <x:String>12</x:String>
+                        <x:String>11</x:String>
+                        <x:String>10</x:String>
+                        <x:String>9</x:String>
+                        <x:String>8</x:String>
+                        <x:String>7</x:String>
+                        <x:String>6</x:String>
+                        <x:String>5</x:String>
+                        <x:String>4</x:String>
+                        <x:String>3</x:String>
+                        <x:String>2</x:String>
+                        <x:String>1</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Add Cote"
+                Clicked="OnAddCoteClicked"
+                VerticalOptions="Center"
+                HorizontalOptions="End"/>
+            </HorizontalStackLayout>
+
+            <Label 
+            Text="Ajouter une appréciation :"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="22"/>
+
+        <HorizontalStackLayout Spacing="50">
+        <Picker x:Name="Student2Picker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start"
+                    SelectedItem="{Binding Selection}" />
+        <Picker x:Name="Activity2Picker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"
+                    SelectedItem="{Binding Selection}" >
+            </Picker>
+        <Picker x:Name="AppreciationPicker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"
+                    SelectedItem="{Binding Selection}" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>X</x:String>
+                        <x:String>TB</x:String>
+                        <x:String>B</x:String>
+                        <x:String>C</x:String>
+                        <x:String>N</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+        <Button Text="Add Appréciation"
+                Clicked="OnAddAppreciationClicked"
+                VerticalOptions="Center"
+                HorizontalOptions="End"/>
+            </HorizontalStackLayout>
+
+
+    </StackLayout>
+</ContentPage>

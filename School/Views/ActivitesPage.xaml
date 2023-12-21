@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="School.Views.ActivitesPage"
+             Title="Activites">
+    <StackLayout>
+        <Label 
+            Text="Liste des activités"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="42"/>
+
+        <Entry Placeholder="Nom de l'activité" x:Name="ActivityNameEntry" VerticalOptions="Center"/>
+        <Entry Placeholder="Trigramme de l'activité" x:Name="ActivityCodeEntry" VerticalOptions="Center"/>
+        <Entry Placeholder="Nombre d'Ects de l'activité" x:Name="ActivityEctsEntry" VerticalOptions="Center"/>
+        <Picker x:Name="TeacherPicker" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"
+                    SelectedItem="{Binding Selection}" />
+
+        <Button Text="Add Activty"
+                Clicked="OnAddActivityClicked"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+        <Label Text="List of Activity:" VerticalOptions="Center" HorizontalOptions="Center" />
+        <ListView ItemsSource="{Binding activityList}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding ECTS, StringFormat='{0} ects'}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+    </StackLayout>
+</ContentPage>

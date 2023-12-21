@@ -1,0 +1,36 @@
+﻿namespace School.Models;
+using System.Collections.ObjectModel;
+
+public class Appreciation : Evaluations
+{    private string appreciation;
+
+    public Appreciation(Activity activity, string appreciation) : base(activity) {
+        SetAppreciation(appreciation);
+    }
+
+    public Appreciation(Activity activity) : base(activity) {
+        SetAppreciation("Not Set");
+    }
+
+    public void SetAppreciation(string appreciation) {
+        this.appreciation = appreciation;
+    }
+
+    public override int Note()
+    {
+        switch(appreciation) {
+            case "X":
+                return 20;
+            case "TB":
+                return 16;
+            case "B":
+                return 12;
+            case "C":
+                return 8;
+            case "N":
+                return 4;
+            default:
+                return 0;
+        }
+    }
+}
