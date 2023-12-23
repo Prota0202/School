@@ -17,7 +17,7 @@ public class Students : Persons
         evaluations.Add(evaluation);
         Console.WriteLine("méthode add");
         Console.WriteLine("evaluation de add : "+evaluations);
-    } //quand on ajoute evaluation on doit utiliser ayoub.add(16) 
+    } 
 
     public double Average() {
         int total = 0;
@@ -38,8 +38,8 @@ public class Students : Persons
         foreach(var evaluation in evaluations) {
             lines.Add(evaluation.ToString());
         }
-        Console.WriteLine("coucou2");
-        Console.WriteLine("jy crois pas trop "+evaluations.Count());
+        Console.WriteLine("Salut");
+        Console.WriteLine("Test "+evaluations.Count());
         lines.Add(String.Format("Moyenne: {0}", Average()));
         Console.WriteLine("méthode bulletin");
 
@@ -54,8 +54,8 @@ public class Students : Persons
     public void Save(){
         Console.WriteLine("evaluation de save : "+evaluations);
         if(evaluations.Count > 0) {
-            Console.WriteLine("yop");
-            Console.WriteLine("truc: {0}", evaluations[0]);
+            Console.WriteLine("Salut2");
+            Console.WriteLine("Test2: {0}", evaluations[0]);
         }
         
         string evaluationsContent = string.Join("\n", evaluations.Select(evaluation => evaluation.ToString()));
