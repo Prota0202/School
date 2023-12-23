@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abdelbadi/Downloads/School1/School/School.csproj": {}
+    "/Users/abdelbadi/Desktop/GitHub/School/School/School.csproj": {}
   },
   "projects": {
-    "/Users/abdelbadi/Downloads/School1/School/School.csproj": {
+    "/Users/abdelbadi/Desktop/GitHub/School/School/School.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abdelbadi/Downloads/School1/School/School.csproj",
+        "projectUniqueName": "/Users/abdelbadi/Desktop/GitHub/School/School/School.csproj",
         "projectName": "School",
-        "projectPath": "/Users/abdelbadi/Downloads/School1/School/School.csproj",
+        "projectPath": "/Users/abdelbadi/Desktop/GitHub/School/School/School.csproj",
         "packagesPath": "/Users/abdelbadi/.nuget/packages/",
-        "outputPath": "/Users/abdelbadi/Downloads/School1/School/obj/",
+        "outputPath": "/Users/abdelbadi/Desktop/GitHub/School/School/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -161,7 +161,10 @@
         }
       },
       "runtimes": {
-        "maccatalyst-arm64": {
+        "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-x64": {
           "#import": []
         }
       }

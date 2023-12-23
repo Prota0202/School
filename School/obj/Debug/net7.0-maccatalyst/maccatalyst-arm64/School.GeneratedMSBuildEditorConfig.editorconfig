@@ -8,63 +8,63 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = School
-build_property.ProjectDir = /Users/abdelbadi/Downloads/School1/School/
+build_property.ProjectDir = /Users/abdelbadi/Desktop/GitHub/School/School/
 
-[/Users/abdelbadi/Downloads/School1/School/App.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/AppShell.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/MainPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Resources/Styles/Colors.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Resources/Styles/Styles.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Views/ActivitesPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Views/ActivitesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Views.ActivitesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/ActivitesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/ActivitesPage.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Views/BulletinPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Views/BulletinPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Views.BulletinPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/BulletinPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/BulletinPage.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Views/EvaluationsPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Views/EvaluationsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Views.EvaluationsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/EvaluationsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/EvaluationsPage.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Views/StudentsPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Views/StudentsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Views.StudentsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/StudentsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/StudentsPage.xaml
 
-[/Users/abdelbadi/Downloads/School1/School/Views/TeachersPage.xaml]
+[/Users/abdelbadi/Desktop/GitHub/School/School/Views/TeachersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = School.Views.TeachersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/TeachersPage.xaml
